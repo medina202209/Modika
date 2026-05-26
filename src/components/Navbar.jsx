@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Logo" className="w-8 h-8" />
-          <span className="text-2xl font-bold text-stone-100 tracking-tight">MiMarca</span>
+          <span className="text-2xl font-bold text-stone-100 tracking-tight">Modika</span>
         </Link>
 
         {/* Links — escritorio */}
