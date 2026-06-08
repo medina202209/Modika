@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function Layout() {
 
@@ -8,9 +9,10 @@ export default function Layout() {
 
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-1 pt-20 bg-zinc-900">
+      <main className="flex-1 pt-16 bg-[#111111]">
         <Outlet />
       </main>
+      <WhatsAppButton />
       <Footer />
     </div>
 
