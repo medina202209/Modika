@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/images/logo/logo.png";
+
 
 
 const links = [
@@ -28,8 +28,8 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Logo" className="w-8 h-8" />
-          <span className="text-2xl font-bold text-stone-100 tracking-tight">Modika</span>
+          <img src={"/imagenes/logo/logoModika.png"} alt="Logo" className="w-16 h-16" />
+        {/*<span className="text-2xl font-bold text-stone-100 tracking-tight">Modika</span>*/}
         </Link>
 
         {/* Links — escritorio */}
